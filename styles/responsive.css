@@ -1,0 +1,148 @@
+@media (max-width: 380px) {
+    .headerContentTitle {
+        font-size: 4rem;
+    }
+
+    .locationsTitle {
+        font-size: 2.4rem;
+    }
+
+    .conectionsTitle {
+        max-width: 16rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footerRightSection {
+        justify-content: center;
+    }
+
+    .footercolumn {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+
+
+    .conections {
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
+
+    .conectionsContent {
+        flex-basis: 60%;
+        padding-right: 2rem;
+    }
+
+    .conectionsBanner {
+        flex-basis: 40%;
+    }
+
+    .conections::before {
+        width: auto;
+        height: auto;
+        top: -5rem;
+        left: -40rem;
+        background-size: auto;
+        background-position: center left;
+    }
+}
+
+@media (min-width: 992px) {
+    .navBtn,
+    .mobileNavMenu {
+        display: none;
+    }
+
+    .desktopMenu {
+        display: flex;
+    }
+    .desktopNavLinks {
+        display: block;
+    }
+
+    .headerContentDesciption {
+        max-width: 50rem;
+    }
+
+    .conectionsContent {
+        padding-right: 4rem;
+    }
+
+    .conectionsTitle {
+        margin-bottom: 0;
+    }
+
+    .footerApplication {
+        display: block;
+    }
+
+    .footerApplicationMobile {
+        display: none;
+    }
+
+    .footerContainer {
+        display: flex;
+    }
+
+    .footerLeftSection {
+        max-width: 50rem;
+    }
+
+    .footerScroll {
+        left: auto;
+    }
+
+    .conections::before {
+        top: -10rem;
+        left: -30rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        min-height: 80rem;
+    }
+
+    .conections {
+        justify-content: space-between;
+    }
+
+    .conectionsContent {
+        flex-basis: auto;
+        width: 60rem;
+    }
+
+    .conectionsBanner {
+        flex-basis: auto;
+        width: 42rem;
+    }
+
+    .footerContainer {
+        justify-content: space-between;
+    }
+
+    .footercolumn {
+        margin-bottom: 0;
+        margin-left: 2rem;
+    }
+
+    .conections::before {
+        top: -15rem;
+        left: -15rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .conections {
+        padding: 3rem 6rem;
+    }
+}
